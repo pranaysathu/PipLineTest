@@ -5,6 +5,7 @@
     <PublishChromeDriver>true</PublishChromeDriver>
     <IsPackable>false</IsPackable>
     <TargetLatestRuntimePatch>true</TargetLatestRuntimePatch>
+  	<IsTestProject>true</IsTestProject>
   </PropertyGroup>
 
   <ItemGroup>

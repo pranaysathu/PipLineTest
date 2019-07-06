@@ -20,7 +20,7 @@ namespace SeleniumDemo
 
                 driver.Manage().Window.Maximize();
 
-                Thread.Sleep(4000);
+                Thread.Sleep(3000);
             }
         }
     }

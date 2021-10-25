@@ -16,11 +16,13 @@ namespace SeleniumDemo
             options.AddArgument("headless");
             using (var driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), options))
             {
-                driver.Navigate().GoToUrl("https://www.whatsapp.com/");
+                driver.Navigate().GoToUrl("https://www.siemens.com/global/en.html");
 
                 driver.Manage().Window.Maximize();
 
+                
                 Thread.Sleep(3000);
+                driver.Quit();
             }
         }
     }

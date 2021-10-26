@@ -23,6 +23,7 @@ namespace SeleniumDemo
                 
                 Thread.Sleep(3000);
                 driver.Quit();
+                System.Console.WriteLine("Test push for autp trigger: 1 ");
             }
         }
     }
